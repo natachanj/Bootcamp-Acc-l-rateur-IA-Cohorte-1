@@ -6,8 +6,21 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-Educational-green.svg)](LICENSE)
 
+## Dépôt GitHub
+
+Ce projet fait partie du dépôt [Bootcamp-Acc-l-rateur-IA-Cohorte-1](https://github.com/natachanj/Bootcamp-Acc-l-rateur-IA-Cohorte-1.git).
+
+**Chemin dans le dépôt :** `Semaine 1/Session 1/ProjetAnalyseMarchéEmploi/`
+
+Pour cloner le projet complet :
+```bash
+git clone https://github.com/natachanj/Bootcamp-Acc-l-rateur-IA-Cohorte-1.git
+cd "Bootcamp-Acc-l-rateur-IA-Cohorte-1/Semaine 1/Session  1/ProjetAnalyseMarchéEmploi"
+```
+
 ## Table des Matières
 
+- [Dépôt GitHub](#dépôt-github)
 - [Description du Projet](#description-du-projet)
 - [Fonctionnalités](#fonctionnalités)
 - [Prérequis](#prérequis)
@@ -50,7 +63,7 @@ Ce projet éducatif vous permet de :
 - **Nettoyage automatique** : Traitement et normalisation des données
 - **Export CSV** : Sauvegarde structurée pour analyse ultérieure
 
-### Partie 2 : Dashboard Interactif (`Partie_2-tableau_bord_marche_emploi.py`)
+### Partie 2 : Dashboard Interactif (`Partie2_tableau_bord_marche_emploi.py`)
 
 - **Statistiques globales** : Vue d'ensemble du marché
 - **Analyse géographique** : Répartition des opportunités par localisation
@@ -133,7 +146,7 @@ python -c "import pandas, streamlit, plotly; print('Toutes les dépendances sont
 
 ```bash
 # Lancer le dashboard Streamlit
-streamlit run Partie_2-tableau_bord_marche_emploi.py
+streamlit run Partie2_tableau_bord_marche_emploi.py
 ```
 
 Le dashboard s'ouvrira automatiquement dans votre navigateur à `http://localhost:8501`
@@ -154,7 +167,7 @@ ProjetAnalyseMarchéEmploi/
 ├── pyproject.toml                     # Configuration du projet (uv)
 │
 ├── Partie1-scraper_emplois.ipynb     # Notebook de scraping
-├── Partie_2-tableau_bord_marche_emploi.py  # Dashboard Streamlit
+├── Partie2_tableau_bord_marche_emploi.py  # Dashboard Streamlit
 │
 ├── data/
 │   └── donnees_marche_emploi.csv        # Données scrapées (généré)

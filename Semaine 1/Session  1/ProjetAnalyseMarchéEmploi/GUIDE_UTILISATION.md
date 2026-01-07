@@ -42,7 +42,7 @@ jupyter notebook
 # 4. Exécuter toutes les cellules (Shift + Enter)
 
 # 5. Lancer le dashboard
-streamlit run Partie_2-tableau_bord_marche_emploi.py
+streamlit run Partie2_tableau_bord_marche_emploi.py
 ```
 
 ---
@@ -208,7 +208,7 @@ Si vous rencontrez des erreurs :
 
 ### Vue d'ensemble
 
-Le dashboard Streamlit (`Partie_2-tableau_bord_marche_emploi.py`) offre une interface web interactive pour :
+Le dashboard Streamlit (`Partie2_tableau_bord_marche_emploi.py`) offre une interface web interactive pour :
 
 - Visualiser les données scrapées
 - Filtrer et rechercher des emplois
@@ -218,7 +218,7 @@ Le dashboard Streamlit (`Partie_2-tableau_bord_marche_emploi.py`) offre une inte
 ### Lancer le Dashboard
 
 ```bash
-streamlit run Partie_2-tableau_bord_marche_emploi.py
+streamlit run Partie2_tableau_bord_marche_emploi.py
 ```
 
 Le dashboard s'ouvrira automatiquement dans votre navigateur à `http://localhost:8501`
