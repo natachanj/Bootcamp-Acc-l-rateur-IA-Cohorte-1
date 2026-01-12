@@ -1,0 +1,18 @@
+# Packages nécessaires pour l'analyse de documents PDF avec IA
+# Installation : pip install -r requirements.txt
+
+# Extraction de texte depuis les fichiers PDF
+pdfplumber>=0.10.0
+
+# API OpenAI pour GPT-4.1
+openai>=1.0.0
+
+# Gestion des variables d'environnement (.env)
+python-dotenv>=1.0.0
+
+# IPython pour l'affichage dans les notebooks Jupyter
+ipython>=8.0.0
+
+# Jupyter pour exécuter les notebooks (optionnel, si pas déjà installé)
+jupyter>=1.0.0
+
