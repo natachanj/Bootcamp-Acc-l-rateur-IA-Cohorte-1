@@ -16,3 +16,4 @@ ipython>=8.0.0
 # Jupyter pour exécuter les notebooks (optionnel, si pas déjà installé)
 jupyter>=1.0.0
 
+
